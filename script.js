@@ -1,9 +1,9 @@
 function toCase(text) {
-    const lowercaseText = text.toLowerCase();
+   let lowercaseText = text.toLowerCase();
 
-    const uppercaseText = text.toUpperCase();
-    const result = `${lowercaseText}-${uppercaseText}`;
-    return result
+    let uppercaseText = text.toUpperCase();
+    let result = `${lowercaseText}-${uppercaseText}`;
+    return result;
 	
 }
 
