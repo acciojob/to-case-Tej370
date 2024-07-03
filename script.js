@@ -2,8 +2,8 @@ function toCase(text) {
   // write your code here
 	let a = text.toLowerCase();
 let b = text.toUpperCase();
-let c = {a "-" b}
-console.log(c);
+let c = {a} "-" {b}
+return c;
 	
 }
 
