@@ -2,7 +2,7 @@ function toCase(text) {
  let a = text.toLowerCase();
 let b = text.toUpperCase();
 let c = `${a} - ${b}`
-return c;
+return c
 	
 }
 
